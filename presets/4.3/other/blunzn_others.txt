@@ -1,0 +1,21 @@
+#$ TITLE: other settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: other, blunzn
+#$ AUTHOR: Blunzn
+#$ DESCRIPTION: Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles
+
+beacon RX_LOST
+beacon RX_SET
+set beeper_dshot_beacon_tone = 4
+set serialrx_provider = CRSF
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+set debug_mode = GYRO_SCALED
+
+#$ OPTION BEGIN (CHECKED): 12 Motorpoles
+# -- ADDER: 12 --
+set motor_poles = 12
+#$ OPTION END

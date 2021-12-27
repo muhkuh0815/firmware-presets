@@ -237,6 +237,7 @@
       "no rpm",
       "noisy",
       "normal",
+      "other",
       "partial",
       "pid",
       "pro32",
@@ -924,6 +925,30 @@
       "author": "Blunzn",
       "description": [
         "Resets the saved flight stats values back to zero"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/blunzn_others.txt",
+      "hash": "f1e4ab5becd4273983d4f26d7458f4c86042056347ea868640427af102a9ac9f",
+      "options": [
+        {
+          "name": "12 Motorpoles",
+          "checked": true
+        }
+      ],
+      "title": "other settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "other",
+        "blunzn"
+      ],
+      "author": "Blunzn",
+      "description": [
+        "Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles"
       ]
     },
     {
