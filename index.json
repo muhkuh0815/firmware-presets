@@ -188,6 +188,7 @@
       "basic",
       "betaflight",
       "blackbox",
+      "blunzn",
       "camera",
       "camera_control",
       "cfv2",
@@ -712,6 +713,30 @@
       "description": [
         "Resets LED settings to 4.3 defaults",
         "Options: LED, colour or mode_color resets."
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/modes/blunzn-tango2.txt",
+      "hash": "60b0bfabd62a30ee7cedaab0ee467d0d150e5b48c902c99759ac8d770ae4f342",
+      "options": [],
+      "title": "blunzn 4.3 Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "blunzn",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets modes and adjustment ranges to 4.3 defaults"
       ]
     },
     {
