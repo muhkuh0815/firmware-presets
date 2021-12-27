@@ -1,0 +1,25 @@
+#$ TITLE: amperemeter setting
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset statistics, stats, ampere, battery
+#$ AUTHOR: Blunzn
+#$ DESCRIPTION: Resets the saved flight stats values back to zero
+
+#$ OPTION BEGIN (UNCHECKED): TH2
+# -- ADDER: TH2 --
+set ibata_scale = 390
+set ibata_offset = -500
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Babytooth 2sT
+# -- ADDER: Two --
+set ibata_scale = 110
+set ibata_offset = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tsb
+# -- ADDER: Tsb --
+set ibata_scale = 550
+set ibata_offset = 0
+#$ OPTION END

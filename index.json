@@ -185,9 +185,11 @@
       "actual",
       "adjustments",
       "aggressive",
+      "ampere",
       "aux",
       "bardwell",
       "basic",
+      "battery",
       "betaflight",
       "blackbox",
       "blunzn",
@@ -883,6 +885,41 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/110",
       "include": [
         "presets/4.3/other/reset_blackbox.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/blunzn_battery.txt",
+      "hash": "d3c066605cdc8d5aa5db827b0a5adb7ece69cb4c0a4148f51b588fd6b2c45a5d",
+      "options": [
+        {
+          "name": "TH2",
+          "checked": false
+        },
+        {
+          "name": "Babytooth 2sT",
+          "checked": false
+        },
+        {
+          "name": "Tsb",
+          "checked": false
+        }
+      ],
+      "title": "amperemeter setting",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset statistics",
+        "stats",
+        "ampere",
+        "battery"
+      ],
+      "author": "Blunzn",
+      "description": [
+        "Resets the saved flight stats values back to zero"
       ]
     },
     {
