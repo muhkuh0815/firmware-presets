@@ -4,7 +4,7 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: blunzn, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets modes and adjustment ranges to 4.3 defaults
+#$ DESCRIPTION: my 4.3 modes
 
 # aux aux 0 0 0 1875 2000 1 0
 

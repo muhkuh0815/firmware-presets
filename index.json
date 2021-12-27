@@ -717,7 +717,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/blunzn-tango2.txt",
-      "hash": "60b0bfabd62a30ee7cedaab0ee467d0d150e5b48c902c99759ac8d770ae4f342",
+      "hash": "f8d760e7f2dadfdbd33e4115820dcff02a08f586bd9a8241a9f1f4c5c110c25b",
       "options": [],
       "title": "blunzn 4.3 Modes and Adjustment settings",
       "firmware_version": [
@@ -736,7 +736,7 @@
       ],
       "author": "Betaflight",
       "description": [
-        "Resets modes and adjustment ranges to 4.3 defaults"
+        "my 4.3 modes"
       ]
     },
     {
