@@ -4,8 +4,12 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: other, blunzn
 #$ AUTHOR: Blunzn
-#$ DESCRIPTION: Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles
+#$ DESCRIPTION: propsout, Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles, pudsumlimit
 
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set rpm_filter_min_hz = 100
+set rpm_filter_fade_range_hz = 100
 beacon RX_LOST
 beacon RX_SET
 set beeper_dshot_beacon_tone = 4

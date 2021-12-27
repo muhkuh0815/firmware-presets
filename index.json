@@ -929,7 +929,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_others.txt",
-      "hash": "f1e4ab5becd4273983d4f26d7458f4c86042056347ea868640427af102a9ac9f",
+      "hash": "b1ff76d2fafe4216607c4675294b9ae4e160b82b182cf30eef41d4c48cb7c23c",
       "options": [
         {
           "name": "12 Motorpoles",
@@ -948,7 +948,7 @@
       ],
       "author": "Blunzn",
       "description": [
-        "Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles"
+        "propsout, Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles, pudsumlimit"
       ]
     },
     {
@@ -3039,8 +3039,21 @@
     },
     {
       "fullPath": "presets/4.3/vtx/blunzn HDZero.txt",
-      "hash": "69a328cbb7ad31a6d5f64131ac39ca5c4a8beaf876367d429eefaf36e38a66f7",
-      "options": [],
+      "hash": "79246f44373ec2f5f3126155a2699b620f047c8d96d23242d2878aa070309162",
+      "options": [
+        {
+          "name": "HDZero UART 1",
+          "checked": false
+        },
+        {
+          "name": "HDZero UART 2",
+          "checked": false
+        },
+        {
+          "name": "HDZero UART 3",
+          "checked": false
+        }
+      ],
       "title": "HDZero 4.3 VTX table settings",
       "firmware_version": [
         "4.3"
