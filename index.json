@@ -190,6 +190,7 @@
       "basic",
       "betaflight",
       "blackbox",
+      "blunzn",
       "camera",
       "camera_control",
       "cfv2",
@@ -215,6 +216,7 @@
       "freestyle",
       "freestyle_HD",
       "freesytle",
+      "freetyle",
       "frsky",
       "hot",
       "jitter",
@@ -289,6 +291,7 @@
       "vtx",
       "vtx table",
       "vtxtable",
+      "whoop",
       "world champion",
       "youtube"
     ]
@@ -764,7 +767,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/Blunzn_HDZ_noGPS.txt",
-      "hash": "f57f28fe618187961b99bb386a2be7ce45cecca27140404a5499235ee41c5152",
+      "hash": "021232d970612e5f1f41d7c35a6bbd5402eacd60fd15c33930ef2509626fda0a",
       "options": [],
       "title": "Blunzn HDzero noGPS",
       "firmware_version": [
@@ -1068,6 +1071,47 @@
         "Joshua Bardwell - one of the most famous YouTubers in FPV. From thorough gear reviews, to tons of videos about drone building and tuning, his videos have helped get many pilots into the air. People love him for his ability to give simple explanations for difficult and technical issues in FPV."
       ],
       "discussion": "https://github.com/betaflight/firmware-presets/pull/94",
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/Blunzn.txt",
+      "hash": "af09a89ff055afd86837c584c4dca531a1e6a409cb0dc63da8982d2f0de63a3d",
+      "options": [
+        {
+          "name": "Cinematic/HD Smoothing",
+          "checked": false
+        }
+      ],
+      "title": "Blunzn",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "blunzn",
+        "rates",
+        "whoop",
+        "freetyle",
+        "cinematic",
+        "HD"
+      ],
+      "author": "Blunzn",
+      "description": [
+        "BASE",
+        "prof 1(0) FREESTYLE:",
+        "",
+        "prof 2(1) RACE:",
+        "",
+        "OPTIONS:",
+        "- CINEMATIC/HD: Same max rates, but adds more smoothing (Expo.) at center stick for smooth transitions when you pass over stick centers (improved \"skating\" HD footage).",
+        "",
+        "- WHOOP: For whoop racing in Angle/Horizon Modes.  Adjust Yaw rate and also Angle/Horizon Strenght, Level Limit and Transition.  It along with adds 0.5 Throttle Expo at the 45% throttle.",
+        ""
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/91",
       "include": [
         "presets/4.3/rates/defaults.txt"
       ]
@@ -2925,6 +2969,31 @@
       "include": [
         "presets/4.3/tune/defaults.txt",
         "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/blunzn HDZero.txt",
+      "hash": "69a328cbb7ad31a6d5f64131ac39ca5c4a8beaf876367d429eefaf36e38a66f7",
+      "options": [],
+      "title": "HDZero 4.3 VTX table settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx",
+        "vtxtable"
+      ],
+      "author": "Blunzn",
+      "description": [
+        "HDZERO"
+      ],
+      "include": [
+        "presets/4.3/vtx/defaults_vtx_tables.txt"
       ]
     },
     {

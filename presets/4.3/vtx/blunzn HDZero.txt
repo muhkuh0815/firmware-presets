@@ -1,0 +1,17 @@
+#$ TITLE: HDZero 4.3 VTX table settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, clear, vtx, vtxtable
+#$ AUTHOR: Blunzn
+#$ DESCRIPTION: HDZERO 
+#$ INCLUDE: presets/4.3/vtx/defaults_vtx_tables.txt
+
+# vtxtable
+
+vtxtable bands 1
+vtxtable channels 8
+vtxtable band 1 RACEBAND R CUSTOM 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 2
+vtxtable powervalues 25 200
+vtxtable powerlabels 25 200
