@@ -889,7 +889,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_battery.txt",
-      "hash": "d3c066605cdc8d5aa5db827b0a5adb7ece69cb4c0a4148f51b588fd6b2c45a5d",
+      "hash": "3cfbdd5deacede02b8d5b6742ff1bbc8e647ab360f6282c3e56a8e4bd36f5641",
       "options": [
         {
           "name": "TH2",
@@ -901,6 +901,10 @@
         },
         {
           "name": "Tsb",
+          "checked": false
+        },
+        {
+          "name": "Thd",
           "checked": false
         }
       ],

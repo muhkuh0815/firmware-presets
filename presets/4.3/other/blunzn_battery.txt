@@ -23,3 +23,9 @@ set ibata_offset = 0
 set ibata_scale = 550
 set ibata_offset = 0
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Thd
+# -- ADDER: Tsb --
+set ibata_scale = 390
+set ibata_offset = 0
+#$ OPTION END
