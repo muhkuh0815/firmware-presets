@@ -2,8 +2,8 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: blunzn, reset, mode, modes, adjustments, aux, switch
-#$ AUTHOR: Betaflight
+#$ KEYWORDS: mode, modes, adjustments, aux, switch
+#$ AUTHOR: Blunzn
 #$ DESCRIPTION: my 4.3 modes
 
 # aux aux 0 0 0 1875 2000 1 0

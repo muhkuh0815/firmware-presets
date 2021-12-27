@@ -119,6 +119,7 @@
       "Alex Vanover",
       "BMSThomas",
       "Betaflight",
+      "Blunzn",
       "Directory",
       "Evan Turner (Headsup)",
       "IllusionFpv",
@@ -159,6 +160,7 @@
       "EVO",
       "GPS",
       "HD",
+      "HDZ",
       "HD_freestyle",
       "HDzero",
       "HV",
@@ -188,7 +190,6 @@
       "basic",
       "betaflight",
       "blackbox",
-      "blunzn",
       "camera",
       "camera_control",
       "cfv2",
@@ -717,7 +718,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/blunzn-tango2.txt",
-      "hash": "f8d760e7f2dadfdbd33e4115820dcff02a08f586bd9a8241a9f1f4c5c110c25b",
+      "hash": "36b115215396893041e5589c24969badc297fc81258623a56c670246ade0cddf",
       "options": [],
       "title": "blunzn 4.3 Modes and Adjustment settings",
       "firmware_version": [
@@ -726,15 +727,13 @@
       "category": "MODES",
       "status": "OFFICIAL",
       "keywords": [
-        "blunzn",
-        "reset",
         "mode",
         "modes",
         "adjustments",
         "aux",
         "switch"
       ],
-      "author": "Betaflight",
+      "author": "Blunzn",
       "description": [
         "my 4.3 modes"
       ]
@@ -761,6 +760,31 @@
       "author": "Betaflight",
       "description": [
         "Resets modes and adjustment ranges to 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/Blunzn_HDZ_noGPS.txt",
+      "hash": "f57f28fe618187961b99bb386a2be7ce45cecca27140404a5499235ee41c5152",
+      "options": [],
+      "title": "Blunzn HDzero noGPS",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "HDZ"
+      ],
+      "author": "Blunzn",
+      "description": [
+        "for toothpick, etc",
+        "",
+        "no gps",
+        ""
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/??",
+      "include": [
+        "presets/4.3/osd/defaults.txt"
       ]
     },
     {
