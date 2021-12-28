@@ -232,6 +232,7 @@
       "mamba",
       "mode",
       "modes",
+      "msp",
       "names",
       "nano",
       "no rpm",
@@ -890,14 +891,14 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_battery.txt",
-      "hash": "3cfbdd5deacede02b8d5b6742ff1bbc8e647ab360f6282c3e56a8e4bd36f5641",
+      "hash": "64381d89cc059b6afa9fa6d712425f63ddc5a24915a33f2d0d67eb257be4e35b",
       "options": [
         {
           "name": "TH2",
           "checked": false
         },
         {
-          "name": "Babytooth 2sT",
+          "name": "Babytooth Two 2s",
           "checked": false
         },
         {
@@ -907,9 +908,13 @@
         {
           "name": "Thd",
           "checked": false
+        },
+        {
+          "name": "La HD",
+          "checked": false
         }
       ],
-      "title": "amperemeter setting",
+      "title": "Ampere and MSP setting",
       "firmware_version": [
         "4.3"
       ],
@@ -920,20 +925,25 @@
         "reset statistics",
         "stats",
         "ampere",
-        "battery"
+        "battery",
+        "msp"
       ],
       "author": "Blunzn",
       "description": [
-        "Resets the saved flight stats values back to zero"
+        "ampere and MSP HDzero"
       ]
     },
     {
       "fullPath": "presets/4.3/other/blunzn_others.txt",
-      "hash": "b1ff76d2fafe4216607c4675294b9ae4e160b82b182cf30eef41d4c48cb7c23c",
+      "hash": "1181e9e9797e89c6c19bc8aababa71cd5a6ecd8a9602d6950a65208a4b322377",
       "options": [
         {
           "name": "12 Motorpoles",
           "checked": true
+        },
+        {
+          "name": "14 Motorpoles",
+          "checked": false
         }
       ],
       "title": "other settings",
@@ -3039,21 +3049,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/blunzn HDZero.txt",
-      "hash": "79246f44373ec2f5f3126155a2699b620f047c8d96d23242d2878aa070309162",
-      "options": [
-        {
-          "name": "HDZero UART 1",
-          "checked": false
-        },
-        {
-          "name": "HDZero UART 2",
-          "checked": false
-        },
-        {
-          "name": "HDZero UART 3",
-          "checked": false
-        }
-      ],
+      "hash": "fbe52db22fd7a5ad72bd71ac9409d6939363f12085547ad86524166011e43972",
+      "options": [],
       "title": "HDZero 4.3 VTX table settings",
       "firmware_version": [
         "4.3"

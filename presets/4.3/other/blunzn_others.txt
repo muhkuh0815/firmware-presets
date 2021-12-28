@@ -23,3 +23,8 @@ set debug_mode = GYRO_SCALED
 # -- ADDER: 12 --
 set motor_poles = 12
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 14 Motorpoles
+# -- ADDER: 14 --
+set motor_poles = 14
+#$ OPTION END

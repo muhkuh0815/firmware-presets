@@ -1,31 +1,47 @@
-#$ TITLE: amperemeter setting
+#$ TITLE: Ampere and MSP setting
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset statistics, stats, ampere, battery
+#$ KEYWORDS: defaults, reset statistics, stats, ampere, battery, msp
 #$ AUTHOR: Blunzn
-#$ DESCRIPTION: Resets the saved flight stats values back to zero
+#$ DESCRIPTION: ampere and MSP HDzero 
 
 #$ OPTION BEGIN (UNCHECKED): TH2
 # -- ADDER: TH2 --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 1
 set ibata_scale = 390
 set ibata_offset = -500
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Babytooth 2sT
+#$ OPTION BEGIN (UNCHECKED): Babytooth Two 2s
 # -- ADDER: Two --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 0
 set ibata_scale = 110
 set ibata_offset = 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Tsb
 # -- ADDER: Tsb --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 0
 set ibata_scale = 550
 set ibata_offset = 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Thd
 # -- ADDER: Tsb --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 1
 set ibata_scale = 390
+set ibata_offset = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): La HD
+# -- ADDER: La --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 4
+set ibata_scale = 175
 set ibata_offset = 0
 #$ OPTION END

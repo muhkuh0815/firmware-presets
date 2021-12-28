@@ -15,21 +15,3 @@ vtxtable band 1 RACEBAND R CUSTOM 5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 2
 vtxtable powervalues 25 200
 vtxtable powerlabels 25 200
-
-#$ OPTION BEGIN (UNCHECKED): HDZero UART 1 
-# -- ADDER: U1 --
-set osd_displayport_device = MSP
-set displayport_msp_serial = 0
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HDZero UART 2 
-# -- ADDER: U2 --
-set osd_displayport_device = MSP
-set displayport_msp_serial = 1
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HDZero UART 3 
-# -- ADDER: U3 --
-set osd_displayport_device = MSP
-set displayport_msp_serial = 2
-#$ OPTION END
