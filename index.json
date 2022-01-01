@@ -1153,13 +1153,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/Blunzn.txt",
-      "hash": "3754d6527a2b30a7f58d8b2cb034c5d9022a1e51889504200f9d8227ffe506a0",
-      "options": [
-        {
-          "name": "Cinematic/HD Smoothing",
-          "checked": false
-        }
-      ],
+      "hash": "fa04479b0615b0137e849df65641ec6a74982d78482625b2a471290ab839e013",
+      "options": [],
       "title": "Blunzn",
       "firmware_version": [
         "4.3"

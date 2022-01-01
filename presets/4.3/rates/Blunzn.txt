@@ -42,11 +42,3 @@ set yaw_expo = 5
 set roll_srate = 50
 set pitch_srate = 50
 set yaw_srate = 50
-
-#$ OPTION BEGIN (UNCHECKED): Cinematic/HD Smoothing
-# -- ADDER: Cinematic/HD Expo --
-set roll_expo = 70
-set pitch_expo = 70
-set yaw_expo = 70
-#$ OPTION END
-
