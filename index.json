@@ -1153,7 +1153,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/Blunzn.txt",
-      "hash": "97d2fe2df8c4513f6dceadf9e505fc5f6ea74b58d9ea9ae2e760b1aadbc9db4a",
+      "hash": "2f254756131f2f11525841a5b06fb3ad43c2f62e53dfb8baf03484c9bb75e74f",
       "options": [
         {
           "name": "Cinematic/HD Smoothing",
@@ -1187,10 +1187,7 @@
         "- WHOOP: For whoop racing in Angle/Horizon Modes.  Adjust Yaw rate and also Angle/Horizon Strenght, Level Limit and Transition.  It along with adds 0.5 Throttle Expo at the 45% throttle.",
         ""
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/91",
-      "include": [
-        "presets/4.3/rates/defaults.txt"
-      ]
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/91"
     },
     {
       "fullPath": "presets/4.3/rates/BMSThomas.txt",
