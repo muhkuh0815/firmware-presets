@@ -20,6 +20,10 @@ set osd_displayport_device = MSP
 set displayport_msp_serial = 0
 set ibata_scale = 110
 set ibata_offset = 0
+resource MOTOR 1 B06
+resource MOTOR 2 B07
+resource MOTOR 3 A00
+resource MOTOR 4 B10
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Tsb
