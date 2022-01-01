@@ -14,7 +14,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: - WHOOP: For whoop racing in Angle/Horizon Modes.  Adjust Yaw rate and also Angle/Horizon Strenght, Level Limit and Transition.  It along with adds 0.5 Throttle Expo at the 45% throttle.
 #$ DESCRIPTION: 
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/91
 
 rateprofile 0
 
