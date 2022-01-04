@@ -1,4 +1,4 @@
-#$ TITLE: Ampere and MSP setting
+#$ TITLE: Ampere, MSP & LED setting
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
@@ -28,6 +28,8 @@ resource MOTOR 4 B10
 
 #$ OPTION BEGIN (UNCHECKED): Tsb
 # -- ADDER: Tsb --
+feature LED_STRIP
+led 0 7,6::AW:1
 set osd_displayport_device = MSP
 set displayport_msp_serial = 0
 set ibata_scale = 550
@@ -36,6 +38,8 @@ set ibata_offset = 0
 
 #$ OPTION BEGIN (UNCHECKED): Thd
 # -- ADDER: Tsb --
+feature LED_STRIP
+led 0 7,6::AW:1
 set osd_displayport_device = MSP
 set displayport_msp_serial = 1
 set ibata_scale = 390

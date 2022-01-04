@@ -891,7 +891,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_battery.txt",
-      "hash": "65cdb4108ef1392ffa8816dc2f8517409e6fe2f92bbadda45935fc92caadc22a",
+      "hash": "19c109bef3a33f8b2366f496d9b2eb308a0c7d8c57961849b3aaa2651bf8199a",
       "options": [
         {
           "name": "TH2",
@@ -914,7 +914,7 @@
           "checked": false
         }
       ],
-      "title": "Ampere and MSP setting",
+      "title": "Ampere, MSP & LED setting",
       "firmware_version": [
         "4.3"
       ],
@@ -935,7 +935,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_others.txt",
-      "hash": "1181e9e9797e89c6c19bc8aababa71cd5a6ecd8a9602d6950a65208a4b322377",
+      "hash": "084f772e8e4b2897eb35a92336bfa5492a8f35252523535a58d2906ae95e533b",
       "options": [
         {
           "name": "12 Motorpoles",
