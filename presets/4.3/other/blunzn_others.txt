@@ -6,14 +6,15 @@
 #$ AUTHOR: Blunzn
 #$ DESCRIPTION: propsout, Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles, pudsumlimit
 
+set displayport_msp_use_device_blink = ON
 set min_check = 1020
 set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
 set report_cell_voltage = ON
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
-set rpm_filter_min_hz = 100
-set rpm_filter_fade_range_hz = 100
+#set rpm_filter_min_hz = 100
+#set rpm_filter_fade_range_hz = 100
 beacon RX_LOST
 beacon RX_SET
 set beeper_dshot_beacon_tone = 4

@@ -171,7 +171,6 @@
       "Limon",
       "MinChan",
       "MultiGP",
-      "OSD",
       "OpenRacer",
       "RPM",
       "SA 2.0",
@@ -238,6 +237,7 @@
       "no rpm",
       "noisy",
       "normal",
+      "osd",
       "other",
       "partial",
       "pid",
@@ -725,8 +725,17 @@
     },
     {
       "fullPath": "presets/4.3/modes/blunzn-tango2.txt",
-      "hash": "7a1ee0323eba6395db333dc309580d9fce5a573d91f9b115bbcf4e04b0a2f36e",
-      "options": [],
+      "hash": "74cb4518e1e013ca97e72b7f4b4d859c8d31f72f38b5ef11f7ac6e644c760c5c",
+      "options": [
+        {
+          "name": "all other",
+          "checked": true
+        },
+        {
+          "name": "Mobula7",
+          "checked": false
+        }
+      ],
       "title": "blunzn 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -742,7 +751,7 @@
       ],
       "author": "Blunzn",
       "description": [
-        "my 4.3 modes"
+        "my 4.3 modes (M7)"
       ]
     },
     {
@@ -771,8 +780,17 @@
     },
     {
       "fullPath": "presets/4.3/osd/Blunzn_HDZ_noGPS.txt",
-      "hash": "021232d970612e5f1f41d7c35a6bbd5402eacd60fd15c33930ef2509626fda0a",
-      "options": [],
+      "hash": "dc83c545610852bbdfa2abe30a9de4d98c9f65efef19a6b66e7a7f5145bd8f42",
+      "options": [
+        {
+          "name": "all other",
+          "checked": true
+        },
+        {
+          "name": "Mobula7",
+          "checked": false
+        }
+      ],
       "title": "Blunzn HDzero noGPS",
       "firmware_version": [
         "4.3"
@@ -780,11 +798,12 @@
       "category": "OSD",
       "status": "OFFICIAL",
       "keywords": [
-        "HDZ"
+        "HDZ",
+        "osd"
       ],
       "author": "Blunzn",
       "description": [
-        "for toothpick, etc",
+        "for toothpick, mob7 etc",
         "",
         "no gps",
         ""
@@ -891,7 +910,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_battery.txt",
-      "hash": "19c109bef3a33f8b2366f496d9b2eb308a0c7d8c57961849b3aaa2651bf8199a",
+      "hash": "df1863988d419e82353b9757ce914c8fde955f96ec3c28db7c39249988cbd807",
       "options": [
         {
           "name": "TH2",
@@ -911,6 +930,10 @@
         },
         {
           "name": "La HD",
+          "checked": false
+        },
+        {
+          "name": "Mobula7",
           "checked": false
         }
       ],
@@ -935,7 +958,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_others.txt",
-      "hash": "03db978944e4e8b9a39c80be7254b107d80fcfcdd845a05835b09da6ed4f6f45",
+      "hash": "6c0a2384b9c81905aae0aa525206b94b90fa90fd55d6b70cff1a63f46a479e40",
       "options": [
         {
           "name": "12 Motorpoles",
@@ -1153,8 +1176,17 @@
     },
     {
       "fullPath": "presets/4.3/rates/Blunzn.txt",
-      "hash": "ca9087a39a0eb8185f5dda0e67f31c7c8f2ea4a4347a54cbfa0319241eb6d604",
-      "options": [],
+      "hash": "3c1d4e7b3a980f75cf6291e20ddd60fa1fc104cba4bb76f868f802ad84b6f77e",
+      "options": [
+        {
+          "name": "all other",
+          "checked": true
+        },
+        {
+          "name": "Mobula7",
+          "checked": false
+        }
+      ],
       "title": "Blunzn",
       "firmware_version": [
         "4.3"
@@ -1172,9 +1204,9 @@
       "author": "Blunzn",
       "description": [
         "BASE",
-        "prof 1(0) FREESTYLE:",
+        "prof 1(0) FREESTYLE: Mob7 freestyle",
         "",
-        "prof 2(1) RACE:",
+        "prof 2(1) RACE:  Mob7 anglemode",
         "",
         "OPTIONS:",
         "- CINEMATIC/HD: Same max rates, but adds more smoothing (Expo.) at center stick for smooth transitions when you pass over stick centers (improved \"skating\" HD footage).",

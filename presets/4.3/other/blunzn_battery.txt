@@ -53,3 +53,11 @@ set displayport_msp_serial = 4
 set ibata_scale = 175
 set ibata_offset = 0
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Mobula7
+# -- ADDER: Mob7 --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 1
+set ibata_scale = 470
+set ibata_offset = 0
+#$ OPTION END
