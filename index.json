@@ -725,7 +725,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/blunzn-tango2.txt",
-      "hash": "74cb4518e1e013ca97e72b7f4b4d859c8d31f72f38b5ef11f7ac6e644c760c5c",
+      "hash": "c05170d7f3c0fc25fbdbd9f8fcf5cd241556cc1b29f26861d264f65c8381eee3",
       "options": [
         {
           "name": "all other",
@@ -733,6 +733,10 @@
         },
         {
           "name": "Mobula7",
+          "checked": false
+        },
+        {
+          "name": "Crux35",
           "checked": false
         }
       ],
@@ -910,7 +914,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_battery.txt",
-      "hash": "df1863988d419e82353b9757ce914c8fde955f96ec3c28db7c39249988cbd807",
+      "hash": "47c34dbbb0a19ff46209829588c8cc6945377cc6abc3f2bfd30c1b6c2875b9a2",
       "options": [
         {
           "name": "TH2",
@@ -935,6 +939,14 @@
         {
           "name": "Mobula7",
           "checked": false
+        },
+        {
+          "name": "Crux35 Cr",
+          "checked": false
+        },
+        {
+          "name": "Crux2 C2",
+          "checked": false
         }
       ],
       "title": "Ampere, MSP & LED setting",
@@ -958,7 +970,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blunzn_others.txt",
-      "hash": "6c0a2384b9c81905aae0aa525206b94b90fa90fd55d6b70cff1a63f46a479e40",
+      "hash": "7422207e7177f2ffdf9b874ea479ee13f54ed17a97a24db8bef4cc28947754c4",
       "options": [
         {
           "name": "12 Motorpoles",
@@ -3072,7 +3084,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/blunzn HDZero.txt",
-      "hash": "fbe52db22fd7a5ad72bd71ac9409d6939363f12085547ad86524166011e43972",
+      "hash": "410d46dc91cb2e1726776ad816525207eed6de4991d4ed8989ea0f3216c29ef2",
       "options": [],
       "title": "HDZero 4.3 VTX table settings",
       "firmware_version": [

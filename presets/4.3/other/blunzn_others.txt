@@ -13,12 +13,15 @@ set rc_smoothing_feedforward_cutoff = 25
 set report_cell_voltage = ON
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
-#set rpm_filter_min_hz = 100
-#set rpm_filter_fade_range_hz = 100
 beacon RX_LOST
 beacon RX_SET
 set beeper_dshot_beacon_tone = 4
 set serialrx_provider = CRSF
+set rc_smoothing = ON
+# Crossfire dynamic rate ( both 150 and 50 hz )
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 25
+set feedforward_jitter_factor = 7
 set motor_pwm_protocol = DSHOT300
 set yaw_motors_reversed = ON
 set small_angle = 180

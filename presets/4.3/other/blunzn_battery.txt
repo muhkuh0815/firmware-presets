@@ -61,3 +61,19 @@ set displayport_msp_serial = 1
 set ibata_scale = 470
 set ibata_offset = 0
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crux35 Cr
+# -- ADDER: Cr35 --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 0
+set ibata_scale = 400
+set ibata_offset = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crux2 C2
+# -- ADDER: C2 --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 0
+set ibata_scale = 470
+set ibata_offset = 0
+#$ OPTION END
