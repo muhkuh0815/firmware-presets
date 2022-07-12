@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: blunzn, rates, whoop, freetyle, cinematic, HD
+#$ KEYWORDS: blunzn, rates, whoop, freetyle, cinematic, HD, snx
 #$ AUTHOR: Blunzn
 #$ DESCRIPTION: BASE
 #$ DESCRIPTION: prof 1(0) FREESTYLE: Mob7 freestyle
@@ -30,7 +30,6 @@ set roll_srate = 80
 set pitch_srate = 120
 set yaw_srate = 75
 set tpa_rate = 84
-set tpa_breakpoint = 1460
 
 rateprofile 1
 

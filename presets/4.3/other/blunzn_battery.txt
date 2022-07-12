@@ -2,9 +2,27 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset statistics, stats, ampere, battery, msp
+#$ KEYWORDS: defaults, reset statistics, stats, ampere, battery, msp, snx
 #$ AUTHOR: Blunzn
 #$ DESCRIPTION: ampere and MSP HDzero 
+
+#$ OPTION BEGIN (UNCHECKED): SnS
+# -- ADDER: SnS --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 2
+set displayport_msp_use_device_blink = ON
+set vbat_max_cell_voltage = 440
+set ibata_scale = 285
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SnM,SnF
+# -- ADDER: SnM, SnF --
+set osd_displayport_device = MSP
+set displayport_msp_serial = 2
+set displayport_msp_use_device_blink = ON
+set vbat_max_cell_voltage = 440
+set ibata_scale = 295
+#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): TH2
 # -- ADDER: TH2 --

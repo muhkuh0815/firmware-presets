@@ -2,14 +2,13 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: other, blunzn
+#$ KEYWORDS: other, blunzn, snx
 #$ AUTHOR: Blunzn
 #$ DESCRIPTION: propsout, Beeper, DSHoot300, Gyro_Scaled, crsf, 12 Motorpoles, pudsumlimit
 
 set displayport_msp_use_device_blink = ON
 set min_check = 1020
-set rc_smoothing_setpoint_cutoff = 25
-set rc_smoothing_feedforward_cutoff = 25
+set max_check = 1990
 set report_cell_voltage = ON
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
@@ -17,15 +16,11 @@ beacon RX_LOST
 beacon RX_SET
 set beeper_dshot_beacon_tone = 4
 set serialrx_provider = CRSF
-set rc_smoothing = ON
-# Crossfire dynamic rate ( both 150 and 50 hz )
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 25
-set feedforward_jitter_factor = 7
 set motor_pwm_protocol = DSHOT300
 set yaw_motors_reversed = ON
 set small_angle = 180
 set debug_mode = GYRO_SCALED
+set motor_poles = 12
 
 #$ OPTION BEGIN (CHECKED): 12 Motorpoles
 # -- ADDER: 12 --

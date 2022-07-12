@@ -4,14 +4,69 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: HDZ, osd
 #$ AUTHOR: Blunzn
-#$ DESCRIPTION: for toothpick, mob7 etc
+#$ DESCRIPTION: for toothpick, mob7 etc snx
 #$ DESCRIPTION: 
 #$ DESCRIPTION: no gps
 #$ DESCRIPTION: 
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/??
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
-#$ OPTION BEGIN (CHECKED): all other
+#$ OPTION BEGIN (CHECKED): SnX SniperX MX all
+# -- ADDER: SnX --
+set osd_warn_batt_not_full = OFF
+set osd_warn_batt_warning = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 50
+set osd_cap_alarm = 750
+set osd_alt_alarm = 0
+set osd_vbat_pos = 363
+set osd_rssi_pos = 490
+set osd_link_quality_pos = 12775
+set osd_rssi_dbm_pos = 132
+set osd_tim_1_pos = 375
+set osd_tim_2_pos = 8663
+set osd_remaining_time_estimate_pos = 466
+set osd_flymode_pos = 388
+set osd_g_force_pos = 452
+set osd_throttle_pos = 8640
+set osd_vtx_channel_pos = 66
+set osd_crosshairs_pos = 237
+set osd_current_pos = 8644
+set osd_mah_drawn_pos = 12791
+set osd_craft_name_pos = 12769
+set osd_pid_roll_pos = 231
+set osd_pid_pitch_pos = 263
+set osd_pid_yaw_pos = 295
+set osd_pidrate_profile_pos = 8634
+set osd_warnings_pos = 14794
+set osd_avg_cell_voltage_pos = 12783
+set osd_disarmed_pos = 12715
+set osd_esc_rpm_pos = 289
+set osd_flip_arrow_pos = 8590
+set osd_core_temp_pos = 8628
+set osd_stick_overlay_left_pos = 33
+set osd_stick_overlay_right_pos = 54
+set osd_pid_profile_name_pos = 136
+set osd_stat_tim_1 = ON
+set osd_stat_max_spd = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_g_force = ON
+set osd_stat_min_link_quality = ON
+set osd_stat_max_fft = ON
+set osd_profile = 2
+set osd_displayport_device = MSP
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): all other
 # -- ADDER: all other --
 set osd_warn_esc_fail = OFF
 set osd_warn_rc_smoothing = OFF

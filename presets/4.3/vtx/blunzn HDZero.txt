@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, clear, vtx, vtxtable
+#$ KEYWORDS: defaults, reset, clear, vtx, vtxtable, snx
 #$ AUTHOR: Blunzn
 #$ DESCRIPTION: HDZERO 
 #$ INCLUDE: presets/4.3/vtx/defaults_vtx_tables.txt
@@ -28,3 +28,33 @@ vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
 vtxtable powerlevels 3
 vtxtable powervalues 14 23 0
 vtxtable powerlabels 25 200 0
+
+set osd_displayport_device = MSP
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
+
+#$ OPTION BEGIN (CHECKED): Whoop AIO, all VTXs except unlocked Freestyle and TX5M.1
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): unlocked Freestyle
+vtxtable powerlevels 5
+vtxtable powervalues 14 23 27 30 0
+vtxtable powerlabels 25 200 500 MAX 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TX5M.1
+vtxtable powerlevels 4
+vtxtable powervalues 14 23 27 0
+vtxtable powerlabels 25 200 500 0
+#$ OPTION END
