@@ -4,10 +4,11 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, reset, tune, pid, expert, default
 #$ AUTHOR: Betaflight
-#$ DESCRIPTION: Checked tune related parameters will be reset to defaults. 
+#$ DESCRIPTION: Checked tune related parameters will be reset to defaults.
 #$ DESCRIPTION: Un-check the parameters you want to keep at current values.
+#$ PRIORITY: 0
 
-#  -- PID settings -- 
+#  -- PID settings --
 
 #$ OPTION BEGIN (CHECKED): PID values
 set p_pitch = 44
@@ -74,11 +75,7 @@ set anti_gravity_gain = 3500
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Feedforward
-set feedforward_boost = 18
 set feedforward_max_rate_limit = 95
-set feedforward_jitter_factor = 5
-set feedforward_jitter_factor = 7
-set feedforward_averaging = OFF
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): PID Sum Limit
